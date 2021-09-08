@@ -1,0 +1,47 @@
+
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+
+a:hover {
+ color: #ffff00;
+}
+#div1 {
+  color: #ffffff;
+  background-color: #000000;
+}
+.spanstyle {
+  color: #ff00f0;
+}
+
+#specialid {
+  background-color: #f000f0;
+}
+.specialp {
+  color: #f0fff0;
+  background-color: #000000;
+}
+#secondid {
+  color: green;
+  background-color: #7FFFD4;
+}
+
+h3 {
+  background-color: #ff0000;
+}
+h2 {
+  background-color: teal;
+}
+h1 {
+  color: #0000ff;
+}
+p {
+  color: #ffffff;
+  background-color: #000000;
+}
