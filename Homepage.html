@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
         <link rel="stylesheet" href="website.css">
     </head>
 
@@ -36,13 +38,26 @@
                 </div>
             </section>
             <section id="media">
+
                 <div class="section-inner">
                     <h2>Media</h2>
                     <ul>
-                        <li>Placeholder(Carousel)</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
+                      <div id="wrapper">
+                        <h1>Projects</h1>
+
+                    <div id="myCarousel" class="carousel">
+                      <div class="carousel__slide"><img src="anxiety_thumb.jpg" href="MattR_AppropriationProj"></div>
+                      <div class="carousel__slide"><img src="viking_thumb.jpg"></div>
+                      <div class="carousel__slide"><img src="evol_thumb.jpg"></div>
+                      <div class="carousel__slide"><img src="hunter_thumb.jpg"></div>
+                    </div>
+
+                      </div>
+
+                      <script>
+                      const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+                      });
+                      </script>
                     </ul>
 
                 </div>
